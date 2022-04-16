@@ -38,8 +38,8 @@ def contact():
 
 
 def send_mail(name, email, phone, message):
-    my_email = "aytacpythonlearning@gmail.com"
-    password = "ABc123456()"
+    my_email = YOUR EMAIL ADDRESS
+    password = YOUR PASSWORD
 
     title = "You have a message! from Aytac's Blog"
 

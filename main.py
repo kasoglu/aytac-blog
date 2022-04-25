@@ -48,7 +48,7 @@ def send_mail(name, email, phone, message):
         connection.login(user=my_email, password=password)
         connection.sendmail(
             from_addr=my_email,
-            to_addrs=my_email",
+            to_addrs=my_email,
             msg=f"Subject:{title}\n\nName: {name}\nEmail: {email}\nPhone: {phone}\nMessage:{message}"
         )
 
